@@ -21,7 +21,7 @@ const RestaurantProvider = ({ children }) => {
   const getRestaurants = async () => {
     setLoading("get_restaurants");
     try {
-      const { data: res } = await axios.get("/api/data_melp.json");
+      const { data: res } = await axios.get("/app-melp/api/data_melp.json");
       setRestaurants(res);
       setLoading(null);
       return res;
