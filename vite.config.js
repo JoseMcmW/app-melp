@@ -11,5 +11,5 @@ export default defineConfig({
       rewrite: (path) => path.replace(/^\/api/, ''),
     },
   },
-  base: '/app-melp/'
+  base: 'https://JoseMcmW.github.io/app-melp/'
 })
