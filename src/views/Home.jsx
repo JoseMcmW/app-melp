@@ -9,7 +9,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate("/restaurants");
+    navigate("/app-melp/restaurants");
   };
   return (
     <Box>

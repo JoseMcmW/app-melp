@@ -52,7 +52,7 @@ const RestaurantCards = ({ restaurants, handleOpenModal }) => {
 
   const handleSearchLocation = (restaurant) => {
     if (restaurant) {
-      navigate(`/location/${restaurant.id}`);
+      navigate(`/app-melp/location/${restaurant.id}`);
     }
   };
 

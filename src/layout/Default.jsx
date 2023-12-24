@@ -130,7 +130,7 @@ export default function PersistentDrawerRight() {
         </DrawerHeader>
         <Divider />
         <List>
-        <ListItem key="home" disablePadding component={Link} to="/">
+        <ListItem key="home" disablePadding component={Link} to="/app-melp">
             <ListItemButton>
               <ListItemIcon>
                 <HomeIcon />
@@ -138,7 +138,7 @@ export default function PersistentDrawerRight() {
               <ListItemText primary="Home" />
             </ListItemButton>
           </ListItem>
-          <ListItem key="Mapa" disablePadding component={Link} to="/radius-stats">
+          <ListItem key="Mapa" disablePadding component={Link} to="/app-melp/radius-stats">
             <ListItemButton>
               <ListItemIcon>
                 <TrackChangesIcon />
@@ -146,7 +146,7 @@ export default function PersistentDrawerRight() {
               <ListItemText primary="Mapa" />
             </ListItemButton>
           </ListItem>
-          <ListItem key="Restaurants" disablePadding component={Link} to="/restaurants">
+          <ListItem key="Restaurants" disablePadding component={Link} to="/app-melp/restaurants">
             <ListItemButton>
               <ListItemIcon>
                 <RestaurantIcon />
