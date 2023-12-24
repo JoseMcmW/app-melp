@@ -3,7 +3,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Box, Typography, Button } from "@mui/material";
-import img from "../../public/portada.svg";
+import img from "../assets/images/portada.svg";
 
 const Home = () => {
   const navigate = useNavigate();

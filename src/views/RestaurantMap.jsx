@@ -69,7 +69,7 @@ const RestaurantMap = () => {
         console.log("Coordenadas del clic:", lat, lng);
 
         setSelectedPoint({ lat, lng });
-        navigate("/radius-stats");
+        navigate("/app-melp/radius-stats");
       },
       locationfound: (location) => {
         console.log("Location found:", location);

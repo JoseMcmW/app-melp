@@ -1,5 +1,5 @@
 import React from 'react'
-import venueLocationIcon from '../../public/venue_location_icon.svg';
+import venueLocationIcon from '../assets/images/venue_location_icon.svg';
 import L from 'leaflet'
 
 const IconLocation = L.icon({

@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/app-melp" element={<Default />}>
+        <Route path="/app-melp/" element={<Default />}>
           <Route index element={<Home />} />
           <Route path="restaurants" element={<Restaurants />} />
           <Route path="radius-stats" element={<RestaurantMap />} />
